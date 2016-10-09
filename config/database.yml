@@ -1,5 +1,5 @@
 default: &default
-  host:  host: <%= `docker-machine ip bmxend` %>
+  host: <%= `docker-machine ip bmxend` %>
   adapter: postgresql
   encoding: unicode
   pool: 5
